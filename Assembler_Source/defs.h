@@ -102,8 +102,8 @@
 #define INPUT_CODE              96
 #define OUTPUT_CODE             97
 
-#define PUSH_ALL_CODE 		 98
-#define POP_ALL_CODE		 99
+#define PUSH_ALL_CODE           98
+#define POP_ALL_CODE            99
 
 /* Definicoes dos op codes (binarios em strings) */
 
@@ -117,14 +117,14 @@
 #define MOV             "110011"
 
 /* Peripheric Instructions: */
-#define INPUT	        "111110"
+#define INPUT           "111110"
 #define OUTPUT          "111111"
 
 /* I/O Instructions: */
 #define OUTCHAR         "110010"
 #define INCHAR          "110101"
 
-/* Aritmethic Instructions(All should begin with "10"):	*/
+/* Aritmethic Instructions(All should begin with "10"):    */
 #define ADD             "100000"
 #define SUB             "100001"
 #define MUL             "100010"
@@ -149,8 +149,8 @@
 #define RTI             "000100" /* RTI e um RTS por enquanto. */
 #define PUSH            "000101"
 #define POP             "000110"
-#define PUSHALL	 "000111"
-#define POPALL		 "001000"
+#define PUSHALL         "000111"
+#define POPALL          "001000"
 /* Adddendum */
 #define SET             "000111"
 #define CALLR           "001001"
@@ -160,7 +160,7 @@
 #define NOP             "000000"
 #define HALT            "001111"
 #define CLEARC          "001000"
-#define BREAKP		"001110"
+#define BREAKP          "001110"
 
 /* Definicoes das condicoes (binarios em strings) */
 #define NO_COND         "0000"
@@ -307,8 +307,8 @@
 /* PUSH & POP */
 #define PUSH_STR                "PUSH"
 #define POP_STR                 "POP"
-#define PUSH_ALL_STR		 "PUSHALL"
-#define POP_ALL_STR		 "POPALL"
+#define PUSH_ALL_STR            "PUSHALL"
+#define POP_ALL_STR             "POPALL"
 
 #define NOP_STR                 "NOP"
 #define HALT_STR                "HALT"
@@ -375,7 +375,7 @@
   [32747]         : Tx
   [32748]         : Timer
   [32749 - 32758] : Argumentos
-  [32759]	  : Retorno
+  [32759]         : Retorno
   [32760 - 32767] : Interrupcoes
 
 */
